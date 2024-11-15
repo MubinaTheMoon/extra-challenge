@@ -1,0 +1,158 @@
+@import url("../../css/global.css");
+.container {
+  padding-left: 0;
+  padding-right: 0;
+}
+.header {
+  width: 100%;
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.about {
+  width: 100%;
+  max-width: 1280px;
+  margin-right: auto;
+  margin-left: auto;
+  background-image: url("../../images/about/desktop/bg-pattern-hero-about-desktop.svg");
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  background-color: #e7816b;
+  border-radius: 1.5rem;
+  margin-bottom: 16rem;
+}
+.about-container {
+  display: flex;
+  justify-content: space-between;
+}
+.about-info {
+  padding-top: 13.5rem;
+  padding-bottom: 13.5rem;
+  padding-left: 9.5rem;
+  color: #fff;
+}
+.about-info h1 {
+  font-size: 4.8rem;
+  line-height: 4.8rem;
+  font-weight: 500;
+  padding-bottom: 3.2rem;
+}
+.about-info p {
+  width: 45.8rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2.6rem;
+}
+
+/* talent */
+.talent {
+  width: 100%;
+  max-width: 1280px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #fdf3f0;
+  margin-bottom: 16rem;
+  border-radius: 1.5rem;
+}
+.deal-container,
+.talent-container {
+  display: flex;
+  background-image: url("../../images/shared/desktop/bg-pattern-three-circles.svg");
+  background-position: center bottom;
+  background-repeat: no-repeat;
+}
+.deal-container {
+  justify-content: space-between;
+}
+.talent-container img {
+  border-top-left-radius: 1.5rem;
+  border-bottom-left-radius: 1.5rem;
+}
+.deal-desc,
+.talent-desc {
+  padding-top: 15.4rem;
+  padding-left: 9.4rem;
+  color: #333136;
+}
+.deal-desc h1,
+.talent-desc h1 {
+  color: #e7816b;
+  font-size: 4rem;
+  line-height: 4.8rem;
+  font-weight: 500;
+  padding-bottom: 2.4rem;
+}
+.deal-desc p {
+  width: 445px;
+  padding-bottom: 2.4rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2.6rem;
+}
+.talent-desc p {
+  width: 445px;
+  padding-bottom: 2.4rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2.6rem;
+}
+
+/* country */
+.country-container {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 16rem;
+}
+.city {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.city img {
+  width: 20.2rem;
+  background-image: url("../../images/shared/desktop/bg-pattern-small-circle.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 4.8rem;
+}
+.city h4 {
+  font-size: 2rem;
+  line-height: 2.6rem;
+  font-weight: 500;
+  letter-spacing: 0.5rem;
+  color: inherit;
+  padding-bottom: 3.2rem;
+}
+
+@media screen and (max-width: 1000px) {
+  .about-container {
+    display: flex;    
+    flex-direction: column;
+  }
+
+  .about-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10rem;
+  }
+
+  .about-info h1 {
+    font-size: 3rem;
+    padding-bottom: 1rem;
+  }
+  .about-info p {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (max-width: 890px){
+    .country-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 8rem;
+        margin-bottom: 3rem;    
+    }
+} 

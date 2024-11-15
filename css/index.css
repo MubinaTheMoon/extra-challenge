@@ -1,0 +1,236 @@
+.award{
+    width: 100%;
+    max-width: 1280px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 14.5rem;
+    padding-left: 9.5rem;
+    padding-right: 9.5rem;
+    background-image:url("../images/home/desktop/bg-pattern-hero-home.svg");
+    background-position:right;
+    background-repeat:no-repeat;
+    background-color: #E7816B;
+    border-radius: 1.5rem;
+    margin-bottom: 16.6rem;
+}
+.award-container{
+    display: flex;
+    justify-content: space-between  ;
+}
+.award-container img{
+    width: 28.4rem;
+}
+.award-text h1{
+    width: 54rem;
+    font-size: 4.8rem;
+    line-height: 4.8rem;
+    font-weight: 500;
+    color: #fff;
+    padding-bottom: 2.5rem;
+}
+.award-text p{
+    width: 44.5rem;
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.6rem;
+    padding-bottom: 4rem;
+}
+
+
+
+/* application */
+.application-container{
+    font-size: 5rem;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    gap: 3rem;
+    margin-bottom: 16rem;
+}
+.app-design{
+    padding: 2rem;
+    border-radius: 1.5rem;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.app-design h3{
+    font-size: 4rem;
+    line-height: 4.8rem;
+    font-weight: 500;
+    letter-spacing: .2rem;
+    padding-bottom: 2.4rem;
+}
+.app-design p{
+    font-size: 1.5rem;
+    line-height: 2.1rem;
+    font-weight: 500;
+    letter-spacing: .5rem;
+}
+.design-1{
+    height: 70rem;
+    grid-column: 1/4;
+    grid-row: 1/7;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/home/desktop/image-web-design-large.jpg");
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size: cover;
+}
+.design-2{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/home/desktop/image-app-design.jpg");
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size: cover;
+    grid-column: 4/7;
+    grid-row: 1/4;
+}
+.design-3{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/home/desktop/image-graphic-design.jpg");
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size: cover;
+    grid-column: 4/7;
+    grid-row: 4/7;
+}
+
+/* aspect */
+.aspect-container{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16rem;
+}
+.aspect-desc{
+    width: 35rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+}
+.aspect-desc img{
+    width: 20.2rem;
+    background-image:url("../images/shared/desktop/bg-pattern-small-circle.svg");
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size: cover;
+    margin-bottom: 4.8rem;
+}
+.aspect-desc h4{
+    font-size: 2rem;
+    line-height: 2.6rem;
+    letter-spacing: .5rem;   
+    font-weight: 500;
+    margin-bottom: 3.2rem;
+    color: #333136;
+}
+.aspect-desc p{
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    font-weight: 400;
+    color: #333136;
+    text-align: center;
+}
+
+
+
+
+@media screen and (max-width: 109rem){
+    .award{
+        padding-bottom: 10rem;
+        margin-bottom: 10rem;
+    }
+    .award-container img{
+        width: 20rem;
+    }
+
+}
+@media screen and (max-width: 1000px){
+    .application-container{
+        margin-bottom: 8rem;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+    .app-design{
+        height: 20rem;
+    }
+    .design-1{
+        grid-column: 1/5;
+        grid-row: 1/2;
+    }    
+    .design-2{
+        grid-column: 1/5;
+        grid-row: 2/3;
+    }    
+    .design-3{
+        grid-column: 1/5;
+        grid-row: 3/4;
+    }
+
+    /* aspect */
+    .aspect-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 8rem;
+    }
+    .aspect-desc{
+        width: 35rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center ;
+    }
+    .aspect-desc img{
+        margin-bottom: 3rem;
+    }
+    .aspect-desc h4{
+        margin-bottom: 1.2rem;
+    }
+
+
+    /* award */
+    .award{
+        padding-top: 10rem;
+        padding-bottom: 0;
+    }
+    .award-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .award-text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 5.4rem;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

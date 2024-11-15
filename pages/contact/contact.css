@@ -1,0 +1,63 @@
+@import url("../../css/global.css");
+
+
+.contact-container{
+    width: 100%;
+    max-width: 1280px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 12.5rem 9.5rem;
+    border-radius: 1.5rem;
+    background-color: #E7816B;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    background-image: url("../../images/home/desktop/bg-pattern-hero-home.svg");
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    margin-bottom: 16rem;
+}
+.contact-text h1{
+    font-size: 4.8rem;
+    font-weight: 500;
+    line-height: 4.8rem;
+    padding-bottom: 3.2rem;
+}
+.contact-text p{
+    width: 44.5rem;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.6rem;
+}
+.contact-input form{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding-bottom: 2.4rem;
+}
+.contact-input input, 
+.contact-input textarea{
+    width: 38rem;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    padding: 1.1rem 1.6rem;
+    border-bottom: 2px solid #fff;
+    font-size: 1.5rem;
+    line-height: 2.6rem;
+    font-weight: 500;
+    
+}
+textarea::placeholder,
+input::placeholder{
+    color: rgba(255, 255, 255, 50%);
+}
+.contact-input a{
+    margin-left: 23rem;
+}
+
+
+
+
+

@@ -1,0 +1,27 @@
+.btn-pink{
+    padding: 1.8rem 2.4rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    background-color: white;
+    color: #333136;
+    border-radius: .8rem;
+    font-size: 1.5rem;
+    transition: .3s;
+}
+
+.btn-pink:hover{
+    background-color: #FFAD9B;
+    color: #fff;
+}
+.btn-white{
+    background-color: #E7816B;
+    color: #fff;
+}
+.btn-white:hover{
+    background-color: #FFAD9B;
+    color: #fff;
+}
+.btn-contact{
+    padding-left: 4.8rem;
+    padding-right: 4.8rem;
+}
